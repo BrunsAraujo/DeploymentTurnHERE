@@ -1,16 +1,16 @@
 {
   "name": "turn-here-app",
   "version": "0.0.0",
-  "homepage": "https://BrunsAraujo.github.io/Turn-HEREAppUnit1Project",
+  "homepage": "https://BrunsAraujo.github.io/DeploymentTurnHERE",
   "private": true,
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gs-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.2.0",
